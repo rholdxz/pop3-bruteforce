@@ -30,7 +30,7 @@ By using this tool, *you* accept full responsibility for your actions.**
 ## 🧰 Requirements
 
 - Python 3.x  
-- No external libraries required (uses Python's built‑in `poplib`)  
+- No external libraries required (uses Python's built‑in `poplib`, `signal`, `sys`)  
 
 ## 🚀 Usage
 
