@@ -1,3 +1,29 @@
+# ---------------------------------------------------------------
+#  Project: POP3 Authentication Automation
+#  Author: Roldan
+#  THM: https://tryhackme.com/p/ROLDAN.S.LOBITANA.JR 
+#  Copyright (c) 2026
+#
+#  Description:
+#      This script demonstrates how to automate POP3 authentication
+#      for testing and educational purposes. It is intended ONLY for
+#      use on systems you own or have explicit, written permission to test.
+#
+#  Legal Disclaimer:
+#      This script is provided strictly for lawful, authorized security
+#      testing and educational research. The author does NOT condone or
+#      support unauthorized access, misuse, or malicious activity of any kind.
+#
+#      By using this script, YOU accept full responsibility for ensuring
+#      that your actions comply with all applicable laws, regulations,
+#      and authorization requirements. The author assumes NO liability
+#      for any damages, legal consequences, or misuse resulting from
+#      the use of this code.
+#
+#  License:
+#      This code is provided "as is" without warranty of any kind.
+# ---------------------------------------------------------------
+
 import poplib
 import sys
 
@@ -40,3 +66,4 @@ for user in users:
         except Exception as e:
             print(f"{RED}[✘] Connection error: {e}{RESET}")
             break
+
