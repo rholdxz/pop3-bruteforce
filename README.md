@@ -1,4 +1,4 @@
-# POP3 Authentication Automation (`pop3-bf.py`)
+# POP3 Scan Bruteforce Attack (`pop3-bf.py`)
 
 A lightweight Python script that automates POP3 authentication attempts using
 a list of usernames and passwords. This tool is designed **strictly for
