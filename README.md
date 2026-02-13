@@ -34,7 +34,7 @@ By using this tool, *you* accept full responsibility for your actions.**
 
 ## 🚀 Usage
 
-python3 pop3-bf.py <Machine_IP> <UserList> <PassList>
+python3 pop3-bf.py `<Machine_IP>` `<UserList>` `<PassList>`
 
 ### Arguments
 
@@ -50,22 +50,23 @@ python3 pop3-bf.py 10.10.10.5 users.txt passwords.txt
 
 ## 🎨 Output Example
 
-[*] Trying admin:123456 [✘] Login failed
-[*] Trying bob:qwerty [✔] Login successful → bob:qwerty
+`[*] Trying admin:123456 [✘] Login failed`<br>
+`[*] Trying bob:qwerty `<br>
+`[✔] Login successful → bob:qwerty`
 
 ## 📂 Wordlist Format
 
-**users.txt**
-admin
-bob 
-alice
-...
+**users.txt**<br>
+admin<br>
+bob<br>
+alice<br>
+...<br>
 
-**passwords.txt**
-123456 
-password 
-qwerty
-...
+**passwords.txt**<br>
+123456<br>
+password<br>
+qwerty<br>
+...<br>
 
 ## 🛡️ Disclaimer
 
